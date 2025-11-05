@@ -13,7 +13,7 @@ Technical
 ---------
 """,
     'depends': [
-        #'l10n_ar',
+        'l10n_py',
         #'certificate',
     ],
     'external_dependencies': {
@@ -31,7 +31,7 @@ Technical
         #'views/account_journal_view.xml',
         #'views/res_currency_view.xml',
         #'views/product_template_view.xml',
-        #'views/report_invoice.xml',
+        'views/res_config_settings_view.xml',
         #'security/ir.model.access.csv',
         #'data/ir_actions_act_url_data.xml',
     ],
@@ -40,6 +40,6 @@ Technical
         #'demo/res_config_settings_demo_view.xml',
     ],
     'installable': True,
-    #'auto_install': ['l10n_ar'],
+    'auto_install': ['l10n_py'],
     "license": 'LGPL-3',
 }
